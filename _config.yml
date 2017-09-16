@@ -6,6 +6,6 @@ url: ""
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:year/:month/:title
