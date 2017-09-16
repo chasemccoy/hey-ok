@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'TiemposHeadline';
+  src: url("fonts/TiemposHeadline-Black.eot");
+  src: url("fonts/TiemposHeadline-Black.eot?#iefix") format("embedded-opentype"), url("fonts/TiemposHeadline-Black.woff2") format("woff2"), url("fonts/TiemposHeadline-Black.woff") format("woff"), url("fonts/TiemposHeadline-Black.ttf") format("truetype"), url("fonts/TiemposHeadline-Black.svg#TiemposHeadline-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+* {
+  border: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: 0;
+  text-decoration: none;
+  text-rendering: optimizeLegibility; }
+
+html,
+body {
+  height: 100%;
+  width: 100%; }
+
+a {
+  color: currentColor;
+  text-decoration: none; }
+
+textarea {
+  resize: none; }
+
+::selection {
+  color: white; }
+
+input,
+textarea {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+body {
+  background-color: black;
+  color: white; }
+
+h1 {
+  font-size: 10rem; }

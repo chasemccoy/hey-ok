@@ -1,0 +1,11 @@
+# Site settings
+title: "Hey, okay."
+email: "chasem000@gmail.com"
+description: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+permalink: /:year/:month/:title
