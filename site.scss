@@ -13,6 +13,30 @@
 	font-style: normal;
 }
 
+@font-face {
+  font-family: 'TiemposText';
+  src: url('fonts/TiemposTextRegular.eot');
+  src: url('fonts/TiemposTextRegular.eot') format('embedded-opentype'),
+       url('fonts/TiemposTextRegular.woff2') format('woff2'),
+       url('fonts/TiemposTextRegular.woff') format('woff'),
+       url('fonts/TiemposTextRegular.ttf') format('truetype'),
+       url('fonts/TiemposTextRegular.svg#TiemposTextRegular') format('svg');
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'TiemposText';
+  src: url('fonts/TiemposTextRegularItalic.eot');
+  src: url('fonts/TiemposTextRegularItalic.eot') format('embedded-opentype'),
+       url('fonts/TiemposTextRegularItalic.woff2') format('woff2'),
+       url('fonts/TiemposTextRegularItalic.woff') format('woff'),
+       url('fonts/TiemposTextRegularItalic.ttf') format('truetype'),
+       url('fonts/TiemposTextRegularItalic.svg#TiemposTextRegularItalic') format('svg');
+	font-style: italic;
+}
+
+
+
 @import 'config';
 @import 'reset';
 @import 'layout';

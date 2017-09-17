@@ -4,6 +4,16 @@
   src: url("fonts/TiemposHeadline-Black.eot?#iefix") format("embedded-opentype"), url("fonts/TiemposHeadline-Black.woff2") format("woff2"), url("fonts/TiemposHeadline-Black.woff") format("woff"), url("fonts/TiemposHeadline-Black.ttf") format("truetype"), url("fonts/TiemposHeadline-Black.svg#TiemposHeadline-Black") format("svg");
   font-weight: 900;
   font-style: normal; }
+@font-face {
+  font-family: 'TiemposText';
+  src: url("fonts/TiemposTextRegular.eot");
+  src: url("fonts/TiemposTextRegular.eot") format("embedded-opentype"), url("fonts/TiemposTextRegular.woff2") format("woff2"), url("fonts/TiemposTextRegular.woff") format("woff"), url("fonts/TiemposTextRegular.ttf") format("truetype"), url("fonts/TiemposTextRegular.svg#TiemposTextRegular") format("svg");
+  font-style: normal; }
+@font-face {
+  font-family: 'TiemposText';
+  src: url("fonts/TiemposTextRegularItalic.eot");
+  src: url("fonts/TiemposTextRegularItalic.eot") format("embedded-opentype"), url("fonts/TiemposTextRegularItalic.woff2") format("woff2"), url("fonts/TiemposTextRegularItalic.woff") format("woff"), url("fonts/TiemposTextRegularItalic.ttf") format("truetype"), url("fonts/TiemposTextRegularItalic.svg#TiemposTextRegularItalic") format("svg");
+  font-style: italic; }
 * {
   border: 0;
   box-sizing: border-box;
@@ -15,7 +25,8 @@
 html,
 body {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 
 a {
   color: currentColor;
@@ -23,9 +34,6 @@ a {
 
 textarea {
   resize: none; }
-
-::selection {
-  color: white; }
 
 input,
 textarea {
@@ -36,5 +44,19 @@ body {
   color: white;
   padding: 0 4rem; }
 
+#wrapper {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+section#content {
+  max-width: 50%; }
+
+body {
+  font-family: "TiemposText", serif;
+  font-size: 2rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "TiemposHeadline", serif; }
+
 h1 {
-  font-size: 10rem; }
+  font-size: 9rem; }
