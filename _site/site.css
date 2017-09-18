@@ -41,19 +41,32 @@ textarea {
 
 body {
   background-color: black;
-  color: white;
-  padding: 0 4rem; }
+  color: white; }
 
-#wrapper {
-  max-width: 1400px;
-  margin: 0 auto; }
+.wrapper {
+  max-width: 100%;
+  padding: 0 0 0 10%; }
+  @media (min-width: 768px) {
+    .wrapper {
+      max-width: 80%; } }
+  @media (min-width: 992px) {
+    .wrapper {
+      max-width: 60%; } }
+
+section#header {
+  background-color: white;
+  color: black;
+  padding: 8rem 0 1rem; }
+  section#header h1 {
+    margin: 0; }
 
 section#content {
-  max-width: 50%; }
+  padding: 2rem 0; }
 
 body {
   font-family: "TiemposText", serif;
-  font-size: 2rem; }
+  font-size: 2rem;
+  line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "TiemposHeadline", serif; }
